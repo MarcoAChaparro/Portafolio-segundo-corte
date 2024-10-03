@@ -223,3 +223,18 @@ footer h2 {
 .redes-footer a:hover {
     color: #90e0ef;
 }
+
+button {
+    background-color: #0077b6; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    font-size: 1rem; 
+}
+
+button:hover {
+    background-color: #005f87; 
+}

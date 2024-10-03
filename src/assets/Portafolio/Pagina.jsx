@@ -57,36 +57,24 @@ function Portfolio() {
         <h2>Repositorios primer corte</h2>
         <div className="proyecto">
           <div className="proyecto-texto">
-            <h3>
-              <a
-                href="https://github.com/MarcoAChaparro/Actividad1"
-                target="_blank"
-                className="proyecto-link"
-                rel="noopener noreferrer"
-              >
-                Trabajo HTML-CSS básico
-              </a>
-            </h3>
+            <h3>Trabajo HTML-CSS básico</h3>
             <p>
               Este proyecto consistió en la creación de una página web sencilla utilizando HTML y CSS, familiarizándose con Visual Studio Code.
             </p>
+            <button onClick={() => window.open("https://github.com/MarcoAChaparro/Actividad1", "_blank")}>
+              Ver proyecto
+            </button>
           </div>
         </div>
         <div className="proyecto">
           <div className="proyecto-texto">
-            <h3>
-               <a
-                 href="https://github.com/juansteban08/ProyectoDise-oWeb.git"
-                 target="_blank"
-                 className="proyecto-link"
-                 rel="noopener noreferrer"              
-               >
-              Proyecto de clase
-              </a>
-            </h3>
+            <h3>Proyecto de clase</h3>
             <p>
-              Pagina web centrada para encontrar recetas fitness para un publico en especifico.
+              Página web centrada para encontrar recetas fitness para un público específico.
             </p>
+            <button onClick={() => window.open("https://github.com/juansteban08/ProyectoDise-oWeb.git", "_blank")}>
+              Ver proyecto
+            </button>
           </div>
         </div>
       </section>
@@ -95,74 +83,49 @@ function Portfolio() {
         <h2>Repositorios segundo corte</h2>
         <div className="proyecto">
           <div className="proyecto-texto">
-            <h3>
-              <a
-                href="https://github.com/MarcoAChaparro/primer-proyecto-react.git"
-                target="_blank"
-                className="proyecto-link"
-                rel="noopener noreferrer"
-              >
-                Primer Proyecto React
-              </a>
-            </h3>
+            <h3>Primer Proyecto React</h3>
             <p>
               En este proyecto, se introdujo React con un ejercicio de contador básico usando componentes y eventos.
             </p>
+            <button onClick={() => window.open("https://github.com/MarcoAChaparro/primer-proyecto-react.git", "_blank")}>
+              Ver proyecto
+            </button>
           </div>
         </div>
         <div className="proyecto">
           <div className="proyecto-texto">
-            <h3>
-              <a
-                href="https://github.com/MarcoAChaparro/ClaseVirtual.git"
-                target="_blank"
-                className="proyecto-link"
-                rel="noopener noreferrer"
-              >
-                Clase Virtual
-              </a>
-            </h3>
+            <h3>Clase Virtual</h3>
             <p>
               Uso de JavaScript en la interacción con la interfaz web para mejorar la experiencia del usuario en un entorno virtual.
             </p>
+            <button onClick={() => window.open("https://github.com/MarcoAChaparro/ClaseVirtual.git", "_blank")}>
+              Ver proyecto
+            </button>
           </div>
         </div>
         <div className="proyecto">
           <div className="proyecto-texto">
-            <h3>
-              <a
-                href="https://github.com/MarcoAChaparro/ActividadJs.git"
-                target="_blank"
-                className="proyecto-link"
-                rel="noopener noreferrer"
-              >
-                Actividad JavaScript
-              </a>
-            </h3>
+            <h3>Actividad JavaScript</h3>
             <p>
               Elaboración de un comparador de números en JavaScript para determinar cuál es el menor y manejar casos de números iguales.
             </p>
+            <button onClick={() => window.open("https://github.com/MarcoAChaparro/ActividadJs.git", "_blank")}>
+              Ver proyecto
+            </button>
           </div>
         </div>
         <div className="proyecto">
           <div className="proyecto-texto">
-            <h3>
-              <a
-                href="https://github.com/MarcoAChaparro/Clase10_React.git"
-                target="_blank"
-                className="proyecto-link"
-                rel="noopener noreferrer"
-              >
-                Clase 10 React
-              </a>
-            </h3>
+            <h3>Clase 10 React</h3>
             <p>
               En esta clase, se manejaron archivos `.jsx` y `.css` en un proyecto React con componentes modulares y estados.
             </p>
+            <button onClick={() => window.open("https://github.com/MarcoAChaparro/Clase10_React.git", "_blank")}>
+              Ver proyecto
+            </button>
           </div>
         </div>
       </section>
-
       <section id="gitignore">
         <h2>Eliminar archivos con gitignore</h2>
         <h3>Paso 1: Crea o edita el archivo .gitignore</h3>
