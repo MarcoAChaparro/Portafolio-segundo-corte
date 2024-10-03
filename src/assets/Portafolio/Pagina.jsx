@@ -22,7 +22,7 @@ function Portfolio() {
           <h2>Sobre mí</h2>
           <p>
             Soy un estudiante de ingeniería multimedia con habilidades en la
-            creación de páginas web con HTML y CSS. Además, tengo conocimientos
+            creación de páginas web con HTML, CSS y JavaScript. Además, tengo conocimientos
             en la creación de modelos 3D utilizando Blender, lo que me convierte
             en un desarrollador multidisciplinario.
           </p>
